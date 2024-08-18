@@ -2,7 +2,7 @@ import React from "react";
 import {createBrowserRouter,RouterProvider} from "react-router-dom";
 import { Navbar } from "./components/Navbar";
 import { Heropage } from "./components/Heropage";
-import { Todolist } from "./components/todolist";
+import { Todolist } from "./components/Todolist";
 import {Calculator} from "./components/Calculator";
 import "./style.css"
 import { Homepage } from "./components/Homepage";
