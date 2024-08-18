@@ -1,7 +1,6 @@
 import React from "react";
 import {createBrowserRouter,RouterProvider} from "react-router-dom";
 import { Navbar } from "./components/Navbar";
-import { Heropage } from "./components/Heropage";
 import { Todolist } from "./components/Todolist";
 import {Calculator} from "./components/Calculator";
 import "./style.css"
@@ -11,10 +10,7 @@ const router = createBrowserRouter([
     path:  "/",
     element:<Navbar/>,
   },
-  {
-    path:  "hero",
-    element: <Heropage/>
-  },
+  
   {
     path:  "todolist",
     element: <Todolist/>
